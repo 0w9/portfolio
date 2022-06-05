@@ -23,6 +23,7 @@ export function HomePage() {
             <VStack>
               <Text fontSize={"25"}>Hello! I am Lennard, a full stack developer located in 🇩🇪.</Text>
               <Text fontSize={"20"} mt={"2px"}>I ❤️ learning new things, and discover the tech every day.</Text>
+              <a fontSize={"13"} mt={"2px"}>*Please make sure there will be more work added here daily, the website was started on the 5th of July*</a>
             </VStack>
           </Center> 
 

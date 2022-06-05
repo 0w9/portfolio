@@ -5,7 +5,7 @@ export function Living() {
         <AccordionPanel pb={4}>
             <Text ml={"3px"}>
                 I am located in near the nothern coast of <b>Germany</b>. This is why I always were connected to 
-                the water and nature, which often shows its beatiful faces here- but its cold.
+                the water and nature, which often shows its beatiful faces here.
             </Text>
         </AccordionPanel>
     )
@@ -53,7 +53,9 @@ export function Programming() {
 export function Buildspace() {
     return (
         <AccordionPanel pb={4}>
-            <Text ml={"3px"}></Text>
+            <Text ml={"3px"}>
+                Due to news, and a growing interest in thinking out of the box, I came to buildspace. This turned out to be one of the best descisions I made, because of the amazing people I have met there. I also enjoy the vibe of the grindset the community is bringing, and definetly would love to connect more to the team.
+            </Text>
         </AccordionPanel>
     )
 }
@@ -61,7 +63,9 @@ export function Buildspace() {
 export function LuckyDog() {
     return (
         <AccordionPanel pb={4}>
-            <Text ml={"3px"}></Text>
+            <Text ml={"3px"}>
+                LuckyDog studio has been such a crazy time. Joining just a few weeks ago, I have been able to ship and work on different intersting fincancial projects on the SOL chain. This has been the first real job I have done in my life, and I am looking forward to move my career to my dream job from here.
+            </Text>
         </AccordionPanel>
     )
 }
