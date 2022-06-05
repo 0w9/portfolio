@@ -10,14 +10,14 @@ import { ContactPage } from './pages/Contact';
 import { ProjectsPage } from './pages/Projects'
 
 
-const customTheme = extendTheme({
-  defaultProps: {
-    colorScheme: "gray"
-  }
-})
+const config = {
+  initialColorMode: "dark",
+  useSystemColorMode: false,
+}
 
+const theme = extendTheme({ config })
 const App = () => (
-  <ChakraProvider theme={customTheme}>
+  <ChakraProvider theme={theme}>
     <NavBar />
     <BrowserRouter>
       <Switch>
