@@ -9,13 +9,13 @@ import { AboutPage } from './pages/About';
 import { ContactPage } from './pages/Contact';
 import { ProjectsPage } from './pages/Projects'
 
+const theme = extendTheme({
+  config: {
+    useSystemColorMode: false,
+    initialColorMode: "green"
+  }
+});
 
-const config = {
-  initialColorMode: "dark",
-  useSystemColorMode: false,
-}
-
-const theme = extendTheme({ config })
 const App = () => (
   <ChakraProvider theme={theme}>
     <NavBar />

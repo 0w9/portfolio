@@ -14,7 +14,7 @@ export function HomePage() {
           <Box>
             <HStack>
               <Heading fontSize={"100px"}>Lennard Dorst</Heading>
-              <Image  src="https://bit.ly/dan-abramov" borderRadius={"full"} boxSize={"100px"}></Image>    
+              <Image  src="https://avatars.githubusercontent.com/u/79471472?v=4" borderRadius={"full"} boxSize={"100px"}></Image>    
             </HStack>
           </Box>
 
