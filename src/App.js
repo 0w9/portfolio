@@ -11,8 +11,9 @@ import { ProjectsPage } from './pages/Projects'
 
 
 const customTheme = extendTheme({
-  components: {
-  } 
+  defaultProps: {
+    colorScheme: "gray"
+  }
 })
 
 const App = () => (
