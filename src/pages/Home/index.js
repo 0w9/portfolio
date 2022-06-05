@@ -1,36 +1,49 @@
-import logo from '../../logo.svg';
-import './style.css';
-import { Link } from 'react-router-dom';
+import { VStack, Flex, Center, Box, Heading, Stack, IconButton, Link, Image, HStack, Text, Icon, Table, Thead, Tbody, Tfoot, Tr, Th, Td, TableCaption, TableContainer,} from '@chakra-ui/react';
+import { FaTwitter, FaGithub, FaInfo } from "react-icons/fa";
+
+import { Experience } from '../../components/Experience';
+import { Info, Twitter, GitHub } from '../../components/LinkButtons';
 
 export function HomePage() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Flex flexDirection="column" width="100wh" height="80vh" justifyContent="center" lignItems="center">
+      <Stack flexDir="column" justifyContent="center" alignItems="center">
 
-      <div className="App-line"></div>
-      
-      <main className="App-main">
-        <p>
-          Page 1
-        </p>
+        <Box>
+        
+          <Box>
+            <HStack>
+              <Heading fontSize={"100px"}>Lennard Dorst</Heading>
+              <Image  src="https://bit.ly/dan-abramov" borderRadius={"full"} boxSize={"100px"}></Image>    
+            </HStack>
+          </Box>
 
-        <Link to="/page2" className="App-link">
-          Next Page
-        </Link>
-      </main>
-    </div>
+        <Box>
+          <Center>
+            <VStack>
+              <Text fontSize={"25"}>Hello! I am Lennard, a full stack developer located in 🇩🇪.</Text>
+              <Text fontSize={"20"} mt={"2px"}>I ❤️ learning new things, and discover the tech every day.</Text>
+            </VStack>
+          </Center> 
+
+          <Center mt={"20px"}>
+              <Box>
+                <HStack>
+
+                  <Info />
+                  <Twitter />
+                  <GitHub />
+
+                </HStack>
+
+                <Experience />
+
+              </Box>
+            </Center>
+          </Box>
+        </Box>
+      </Stack>
+    </Flex>
+
   );
 }
