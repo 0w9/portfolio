@@ -64,7 +64,7 @@ export function LuckyDog() {
     return (
         <AccordionPanel pb={4}>
             <Text ml={"3px"}>
-                LuckyDog studio has been such a crazy time. Joining just a few weeks ago, I have been able to ship and work on different intersting fincancial projects on the SOL chain. This has been the first real job I have done in my life, and I am looking forward to move my career to my dream job from here.
+                LuckyDog studio has been such a crazy time. Joining just a few weeks ago, I have been able to ship and work on different interesting fincancial projects on the SOL chain. This has been the first real job I have done in my life, and I am looking forward to move my career to my dream job from here.
             </Text>
         </AccordionPanel>
     )
