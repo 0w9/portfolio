@@ -1,6 +1,6 @@
 import { styled, Text, Spacer, Divider, Link, Button } from "@nextui-org/react"
 import confetti from "canvas-confetti"
-import { SocialIcon } from 'react-social-icons';
+import { GrGithub, GrTwitter } from "react-icons/gr";
 
 const Box = styled("div")
 
@@ -45,7 +45,7 @@ export default function Home() {
               origin: { y: 0.6 },
             });
           }}>
-            <h3>🕊</h3>
+            <GrTwitter size="30" />
           </Link>
 
           <Link a href="https://www.github.com/0w9" css={{
@@ -57,7 +57,7 @@ export default function Home() {
               origin: { y: 0.6 },
             });
           }}>
-            <h3>👨🏻‍💻</h3>
+            <GrGithub size="30" />
           </Link>
         </Box>
       </Box>
