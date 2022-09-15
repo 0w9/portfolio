@@ -43,7 +43,6 @@ export default function Home() {
               particleCount: 100,
               spread: 100,
               origin: { y: 0.6 },
-              colors: ["#1DA1F2"]
             });
           }}>
             <h3>🕊</h3>
@@ -56,7 +55,6 @@ export default function Home() {
               particleCount: 100,
               spread: 100,
               origin: { y: 0.6 },
-              colors: ["#1DA1F2"]
             });
           }}>
             <h3>👨🏻‍💻</h3>
