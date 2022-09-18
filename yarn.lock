@@ -1088,6 +1088,11 @@
   "resolved" "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz"
   "version" "3.0.0"
 
+"curji@^1.0.2":
+  "integrity" "sha512-W2YDshSOBmmC4NyAdvp9f7T828rCetGxEO+8pXx2aHebxE70QbBPbGgDGSyuKJV70TboxgYpAUbTlZc7HGKgEQ=="
+  "resolved" "https://registry.npmjs.org/curji/-/curji-1.0.2.tgz"
+  "version" "1.0.2"
+
 "cursor-effects@^1.0.4":
   "integrity" "sha512-LWcQHyHyeRfS0u4njd+cipaLUKoE1N9Jg4Rjon5h75TIB4Z4VxF+nX5c/QjXX795EMZoEz6jz8K+U+V4w5wy0A=="
   "resolved" "https://registry.npmjs.org/cursor-effects/-/cursor-effects-1.0.4.tgz"

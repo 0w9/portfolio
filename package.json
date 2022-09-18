@@ -11,6 +11,7 @@
   "dependencies": {
     "@nextui-org/react": "^1.0.0-beta.10",
     "canvas-confetti": "^1.5.1",
+    "curji": "^1.0.2",
     "cursor-effects": "^1.0.4",
     "next": "12.3.0",
     "next-themes": "^0.2.1",

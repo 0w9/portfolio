@@ -2,15 +2,13 @@ import { styled, Text, Spacer, Divider, Link, Button } from "@nextui-org/react"
 import confetti from "canvas-confetti"
 import { useEffect } from "react";
 import { annotate } from 'rough-notation';
-import { trailingCursor } from 'cursor-effects';
+import curji from 'curji';
 
 const Box = styled("div")
 
 export default function Home() {
   useEffect(() => {
-    //new trailingCursor({ particles: 5 });
-
-
+    curji('🚢')
     const builds_title = document.getElementById('builds_title');
     const builds_title_annotation = annotate(builds_title, { type: 'bracket', color: 'turquoise', brackets: "left", padding: 10 });
     builds_title_annotation.show();
@@ -31,7 +29,7 @@ export default function Home() {
       alignItems: "center",
       justifyContent: "center",
       id: "all",
-      height: "100vh",
+      height: "100vh"
     }}>
 
       <Box>
@@ -39,9 +37,21 @@ export default function Home() {
         <Box css={{
           fontFamily: "monospace"
         }}>
+
           <Text h2 css={{
             textAlign: "center"
-          }}>Lennard Dorst</Text>
+          }}>✌️ What's up?</Text>
+
+          <Text css={{
+            textAlign: "center"
+          }}>
+            ✨ Hey! My name is Lennard. I am 17 years old and a passionate builder.<br />
+            While learning to build and program, I love to share my experiences with others, and connect with peers.<br />
+            Feel free to reach out to me if you would like to work with me, or just like to have a chat about tech& the world.
+            <br /><Spacer y={0.5} />
+          </Text>
+
+          <Spacer y={1} />
 
           <Box css={{
             display: "flex",
