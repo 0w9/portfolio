@@ -14,6 +14,7 @@ class MyDocument extends Document {
     render() {
         return (
             <Html lang="en">
+                <link rel="icon" href="/favicon.svg" />
                 <Head>{CssBaseline.flush()}</Head>
                 <body>
                     <Main />
