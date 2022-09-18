@@ -96,7 +96,7 @@ export default function Home() {
             fontFamily: "monospace",
 
           }}>
-            <Text a>aug '22 - present:</Text>
+            <Text a>aug 22 - present:</Text>
 
             <Text h3 id="nest_title">nest app</Text>
 
@@ -121,7 +121,7 @@ export default function Home() {
             fontFamily: "monospace",
 
           }}>
-            <Text a>july '22 - present:</Text>
+            <Text a>july 22 - present:</Text>
 
             <Text h3 id="cc_title">contract guard</Text>
 
