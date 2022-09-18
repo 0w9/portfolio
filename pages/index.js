@@ -32,7 +32,6 @@ export default function Home() {
       justifyContent: "center",
       id: "all",
       height: "100vh",
-      cursor: "url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='25' height='30' viewport='0 0 100 100' style='fill:black;font-size:15px;'><text y='50%'>🚢</text></svg>') 16 0, auto; /*!emojicursor.app*/"
     }}>
 
       <Box>
@@ -143,6 +142,6 @@ export default function Home() {
 
         </Box>
       </Box>
-    </Box>
+    </Box >
   </>
 }
