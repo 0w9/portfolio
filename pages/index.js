@@ -40,7 +40,7 @@ export default function Home() {
 
           <Text h2 css={{
             textAlign: "center"
-          }}>✌️ What's up?</Text>
+          }}>✌️ Hello!</Text>
 
           <Text css={{
             textAlign: "center"
